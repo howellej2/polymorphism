@@ -1,8 +1,4 @@
-abstract Vehicle Class
-{
-    abstract void make()
-    {
-        Sytem.out.println("A vehicle normally has four wheels");
-    }
+abstract class Vehicle {
+    
+    abstract void make();
 }
-

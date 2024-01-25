@@ -1,7 +1,7 @@
-class Dually extends Vehicle
-{
-    abstact void make()
+class Dually extends Vehicle {
+    @Override
+    void make() 
     {
-        System.out.println("A Dually has 6 wheels");
+        System.out.println("A Dually Truck has 6 wheels");
     }
 }
